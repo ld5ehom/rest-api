@@ -1,0 +1,33 @@
+%%- book
+%%- author
+%%- review
+
+erDiagram
+    Books {
+        int id PK "Book ID"
+        string title "Book Title"
+        string publisher "Publisher"
+        date publishedDate "Published Date"
+    }
+
+    Authors {
+        int id PK "Author ID"
+        string name "Author Name"
+    }
+
+    Reviews {
+        int id PK "Review ID"
+        int bookID FK "Book ID"
+        string content "Review Content"
+        float rating "Rating"
+        date createdDate "Created Date"
+    }
+
+    BooksAuthors {
+        int bookId FK "Book ID"
+        int authorId FK "Author ID"
+    }
+
+    Books ||--o{ Reviews : "has"
+    Books ||--|{ BooksAuthors : "has"
+    Authors ||--|{ BooksAuthors : "writes"
