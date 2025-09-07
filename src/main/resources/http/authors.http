@@ -1,0 +1,5 @@
+### Get all authors
+GET http://localhost:8080/authors
+
+### Get authors of book with ID 1
+GET http://localhost:8080/books/1/authors

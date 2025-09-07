@@ -1,0 +1,8 @@
+### Get reviews for book with ID 1
+GET http://localhost:8080/books/1/reviews
+
+### Get reviews for book with ID 2
+GET http://localhost:8080/books/2/reviews
+
+### Get reviews for book with ID 3
+GET http://localhost:8080/books/3/reviews
