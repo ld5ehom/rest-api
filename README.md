@@ -8,6 +8,11 @@
 -   Technologies: Java, Spring Boot, Spring Web, Spring Data JPA, Spring HATEOAS, Spring Boot Actuator, Validation, HAL Explorer, REST Docs, Lombok, H2 Database
 
 ---
+```angular2html
+http://localhost:8080/swagger-ui/index.html#/
+```
+
+---
 
 ## URI Design for Online Bookstore
 

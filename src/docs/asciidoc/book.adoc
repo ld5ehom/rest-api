@@ -1,0 +1,29 @@
+= REST API Guide
+:doctype: user
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:operation-curl-request-title:
+:operation-http-response-title:
+
+[[getBooks]]
+=== Retrieve All Books
+
+include::{snippets}/getBooks/curl-request.adoc[]
+include::{snippets}/getBooks/http-request.adoc[]
+include::{snippets}/getBooks/request-body.adoc[]
+include::{snippets}/getBooks/http-response.adoc[]
+include::{snippets}/getBooks/response-fields.adoc[]
+include::{snippets}/getBooks/response-body.adoc[]
+
+[[getBookById]]
+=== Retrieve a Book by ID
+
+include::{snippets}/getBookById/curl-request.adoc[]
+include::{snippets}/getBookById/http-request.adoc[]
+include::{snippets}/getBookById/request-body.adoc[]
+include::{snippets}/getBookById/http-response.adoc[]
+include::{snippets}/getBookById/response-fields.adoc[]
+include::{snippets}/getBookById/response-body.adoc[]
